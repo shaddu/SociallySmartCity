@@ -7,7 +7,12 @@
         <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
     </head>
     <body>
-            <div id="chatbox" role="main"></div></div>
+            <div id="chatbox" role="main">
+                <div class="chat-box-header">
+                    Chat with us
+                    <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+                 </div>
+                 <div id="chatboxbody"></div>
             <script>
             //   window.WebChat.renderWebChat({
             //     directLine: window.WebChat.createDirectLine({ token: '5wO-dE0krT8.E05wzXepX9Q-Y_Iwk-wkvNEvCmxLXlax9kHYFKWgC4w' }),
