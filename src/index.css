@@ -1,3 +1,13 @@
 html {
     background-color: #fff;
 }
+
+article.post {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E6EAEE;
+}
+
+a svg {
+    margin-right: 5px;
+}
