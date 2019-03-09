@@ -41,18 +41,11 @@ a svg {
 
 #chatboxbody{
     position: relative;
-    height: 78%;
+    height: 87%;
     overflow: hidden;
     border: 1px solid #ccc;
 }
 
 .chat-box-header {
     background: #5A5EB9;
-    height:70px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px; 
-    color:white;
-    text-align:center;
-    font-size:20px;
-    padding-top:17px;
   }

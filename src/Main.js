@@ -14,9 +14,10 @@ export class Main extends React.Component {
     }
 
     buttonClick(){
-        this.setState({
-            chatboxOpen:true
-        })
+        this.setState((prev, props) =>{
+            const newState = !prev.chatboxOpen;
+            return {chatboxOpen:newState};
+        });
     }
 
     render() {
@@ -26,7 +27,7 @@ export class Main extends React.Component {
                 <NavBar />
                 <Profile />
                 <Feed />
-                {this.state.chatboxOpen ? <ChatBox/> :
+                {this.state.chatboxOpen ? <ChatBox buttonClick={this.buttonClick}/> :
                                           <button id="chatbutton" className="button is-info" onClick={this.buttonClick} style={{ bottom: 10, position: "fixed", float: "right", right: "15%", left: "85%" }}>Chat with Us ?</button>}
             </>
         )

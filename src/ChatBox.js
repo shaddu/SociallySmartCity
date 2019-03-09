@@ -19,7 +19,13 @@ componentDidMount(){
 
   render() {
     return (
-      null
+         <div id="chatbox" role="main">
+            <div className="chat-box-header message-header">
+                Chat with us
+                <button class="delete" onClick={this.props.buttonClick}></button>
+        </div>
+        <div id="chatboxbody"></div>
+        </div>
     )
   }
 }
