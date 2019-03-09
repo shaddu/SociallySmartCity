@@ -25,12 +25,15 @@ namespace Microsoft.BotBuilderSamples
         public const string CancelIntent = "Cancel";
         public const string HelpIntent = "Help";
         public const string NoneIntent = "None";
+		public const string TaskIntent = "TaskOrIssue";
+		public const string MedicalIntent = "Medical";
 
-        /// <summary>
-        /// Key in the bot config (.bot file) for the LUIS instance.
-        /// In the .bot file, multiple instances of LUIS can be configured.
-        /// </summary>
-        public static readonly string LuisConfiguration = "BasicBotLuisApplication";
+
+		/// <summary>
+		/// Key in the bot config (.bot file) for the LUIS instance.
+		/// In the .bot file, multiple instances of LUIS can be configured.
+		/// </summary>
+		public static readonly string LuisConfiguration = "BasicBotLuisApplication";
 
         private readonly IStatePropertyAccessor<GreetingState> _greetingStateAccessor;
         private readonly IStatePropertyAccessor<DialogState> _dialogStateAccessor;
@@ -89,7 +92,7 @@ namespace Microsoft.BotBuilderSamples
                 var topIntent = topScoringIntent.Value.intent;
 
                 // update greeting state with any entities captured
-                await UpdateGreetingState(luisResults, dc.Context);
+             //   await UpdateGreetingState(luisResults, dc.Context);
 
                 // Handle conversation interrupts first.
                 var interrupted = await IsTurnInterruptedAsync(dc, topIntent);
@@ -118,7 +121,20 @@ namespace Microsoft.BotBuilderSamples
                                     await dc.BeginDialogAsync(nameof(GreetingDialog));
                                     break;
 
-                                case NoneIntent:
+                                case TaskIntent:
+									await dc.Context.SendActivityAsync("I have tagging @UPMuncipality @StreetSmartNoida");
+									//var welcomeCard = CreateAdaptiveCardAttachment();
+									//var response = CreateResponse(activity, welcomeCard);
+									//await dc.Context.SendActivityAsync(response);
+									break;
+								case MedicalIntent:
+									await dc.Context.SendActivityAsync("Medical authority has been alerted and help will be arriving soon. Thanks for reporting ! ");
+									//var welcomeCard = CreateAdaptiveCardAttachment();
+									//var response = CreateResponse(activity, welcomeCard);
+									//await dc.Context.SendActivityAsync(response);
+									break;
+
+								case NoneIntent:
                                 default:
                                     // Help or no intent identified, either way, let's provide some help.
                                     // to the user
