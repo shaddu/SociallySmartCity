@@ -1,23 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from './navbar';
-
-import { formatAmount } from './utils.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faBolt } from '@fortawesome/free-solid-svg-icons'
+import Profile from './Profile';
+import Feed from './Feed';
 
 export class Main extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-            monthlyIncome: 20000
         }
     }
 
     render() {
 
         return (
-            <NavBar/>
+            <>
+                <NavBar />
+                <Profile />
+                <Feed />
+
+                <button className="button is-info" style={{ bottom: 10, position: "fixed", float: "right", right: "15%", left: "85%" }}>Chat with Us ?</button>
+            </>
         )
     }
 }
