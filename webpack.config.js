@@ -27,7 +27,8 @@ const config = {
     devServer: {
         contentBase: dist,
         compress: true,
-        port: 1234
+        port: 1234,
+        historyApiFallback: true
     }
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './navbar';
-import Profile from './Profile';
-import Feed from './Feed';
+import CityDetail from './CityDetail';
+import CityName from './CityName';
 import ChatBox from './ChatBox';
 
 export class City extends React.Component {
@@ -25,8 +25,8 @@ export class City extends React.Component {
         return (
             <>
                 <NavBar />
-                <Profile />
-                <Feed />
+                <CityName/>
+                <CityDetail/>
                 {this.state.chatboxOpen ? <ChatBox buttonClick={this.buttonClick}/> :
                                           <button id="chatbutton" className="button is-info" onClick={this.buttonClick} style={{ bottom: 10, position: "fixed", float: "right", right: "15%", left: "85%" }}>Chat with Us ?</button>}
             </>
