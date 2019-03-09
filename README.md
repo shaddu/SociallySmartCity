@@ -1,0 +1,2 @@
+# SociallySmartCity
+Smart Cities socialised 
