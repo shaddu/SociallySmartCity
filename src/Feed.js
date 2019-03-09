@@ -28,9 +28,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -45,9 +45,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />8</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />64</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />334</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />8</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />64</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />334</a>
               </footer>
             </div>
           </div>
@@ -62,9 +62,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -79,9 +79,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -96,9 +96,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -113,9 +113,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -133,9 +133,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -150,9 +150,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -167,9 +167,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -184,9 +184,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -201,9 +201,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
@@ -218,9 +218,9 @@ class Feed extends React.Component {
                 </div>
               </div>
               <footer className="card-footer">
-              <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
-                <a href="#" className="card-footer-item"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
+              <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faComments} size="lg" />2</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faRetweet} size="lg" />14</a>
+                <a href="#" className="card-footer-item has-text-grey"><FontAwesomeIcon icon={faHeart} size="lg" />134</a>
               </footer>
             </div>
           </div>
