@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -33,9 +34,7 @@ class Navbar extends React.Component {
             </div>
           </div>
           <div className="navbar-end">
-            <a className="navbar-item">
-              City Map
-             </a>
+             <Link className="navbar-item" to="/CityMaps">City Map</Link> 
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">
                 Shadab
