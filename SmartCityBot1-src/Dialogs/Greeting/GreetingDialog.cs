@@ -217,7 +217,7 @@ namespace Microsoft.BotBuilderSamples
 
 			// Display their profile information and end dialog.
 			//  await context.SendActivityAsync($"Hi {greetingState.Name}, from {greetingState.City}, nice to meet you today!");
-            await context.SendActivityAsync($"Hi {greetingState.Name}, nice to meet you! How can I help you today.");
+            await context.SendActivityAsync($"Hi {greetingState.Name}, nice to meet you! Please describe your issue or complain.");
 
 			return await stepContext.EndDialogAsync();
         }
