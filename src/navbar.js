@@ -35,11 +35,11 @@ class Navbar extends React.Component {
           <div className="navbar-end">
             <a className="navbar-item">
               City Map
-                    </a>
+             </a>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">
                 Shadab
-                      </a>
+               </a>
 
               <div className="navbar-dropdown">
                 <a className="navbar-item">

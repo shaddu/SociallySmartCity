@@ -11,3 +11,30 @@ article.post {
 a svg {
     margin-right: 5px;
 }
+
+.fa-comments:hover{
+    color:hsl(217, 71%, 53%);
+}
+
+.fa-heart:hover{
+    color:hsl(348, 100%, 61%);
+}
+
+.fa-retweet:hover{
+    color:hsl(141, 71%, 48%);
+}
+
+#chatbox{
+    display: none;
+    background: #efefef;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 350px;
+    max-width: 85vw;
+    max-height: 100vh;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 35px 9px #464a92; */
+    box-shadow: 0px 5px 35px 9px #ccc;
+    z-index: 100;
+}
