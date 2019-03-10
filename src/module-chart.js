@@ -11,10 +11,10 @@ var areaChartData = {
     {
       label               : 'Metro',
       backgroundColor     : '#f56954',
-      data                : [40, 45, 50, 45, 42, 42]
+      data                : [40, 45, 49, 45, 42, 42]
     },
     {
-      label               : 'Buses',
+      label               : 'Bus',
       backgroundColor     : '#00a65a',
       data                : [25, 28, 30, 29, 28, 27]
     },
