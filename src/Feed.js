@@ -22,7 +22,7 @@ class Feed extends React.Component {
                 <div className="content">
                    Streetlight on right side of Riverside parking is broken, did any body notice ?
                    <br/>
-                  <a href="#">#streetlight</a>. <a href="#">#stategov</a> <a href="#">#Raipur</a>
+                  <a href="#">#streetlight</a>. <a href="#">#stategov</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -39,7 +39,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -56,7 +56,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -73,7 +73,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -90,7 +90,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -107,7 +107,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -127,7 +127,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                    Street light on right side of Riverside parking is broken.
-                  <a href="#">#streetlight</a>. <a href="#">#stategov</a> <a href="#">#Raipur</a>
+                  <a href="#">#streetlight</a>. <a href="#">#stategov</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -144,7 +144,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -161,7 +161,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -178,7 +178,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -195,7 +195,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>
@@ -212,7 +212,7 @@ class Feed extends React.Component {
               <div className="card-content">
                 <div className="content">
                   Community gathering for felicitations of Northern High school kids.
-                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Raipur</a>
+                  <a href="#">#felicitations</a>. <a href="#">#NorthernHigh</a> <a href="#">#Noida</a>
                   <br />
                   <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                 </div>

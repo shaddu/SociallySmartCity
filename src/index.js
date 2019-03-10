@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bulma';
 import './index.css';
 import { Main } from './Main.js';
-import { CityMaps } from './CityMaps.js';
+import CityMaps  from './CityMaps.js';
 import { City } from './City.js';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 

@@ -1,26 +1,27 @@
 import Chart from 'chart.js';
 const dataArray = [100, 350, 300, 200, 300, 500]
+const dataArray2 = [10, 3, 7, 18, 10, 8]
 
 //-------------
 //- BAR CHART -
 //-------------
 var areaChartData = {
-  labels  : ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+  labels  : ['Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'March'],
   datasets: [
     {
-      label               : 'Electronics',
+      label               : 'Metro',
       backgroundColor     : '#f56954',
-      data                : [65, 59, 80, 81, 56, 55, 40]
+      data                : [40, 45, 50, 45, 42, 42]
     },
     {
-      label               : 'Fashion',
+      label               : 'Buses',
       backgroundColor     : '#00a65a',
-      data                : [28, 48, 40, 19, 86, 27, 90]
+      data                : [25, 28, 30, 29, 28, 27]
     },
     {
-      label               : 'Foods',
+      label               : 'Others',
       backgroundColor     : '#00c0ef',
-      data                : [70, 60, 65, 50, 60, 70, 80]
+      data                : [35, 27, 20, 26, 30, 31]
     }
   ]
 }
@@ -111,47 +112,24 @@ new Chart(chartLine, {
     }
 });
 
-/* Chart Scatter */
+
+// chart line two
+
+
+/* Chart Line */
 var chartScatter = document.getElementById("chartScatter");
 new Chart(chartScatter, {
-    type: 'scatter',
+    type: 'line',
     data: {
+        labels: ["Oct", "Nov", "Dec", "Jan", "Feb", "March"],
         datasets: [{
-            label: 'Scatter Dataset',
-            data: [{
-                x: 5,
-                y: 5
-            }, {
-                x: 6,
-                y: 8
-            }, {
-                x: 6,
-                y: 6
-            }, {
-                x: 7,
-                y: 7
-            }, {
-                x: 7,
-                y: 9
-            }, {
-                x: 9,
-                y: 5
-            }],
+            label: 'Power Disruption Count',
+            data: dataArray2,
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(0, 209, 178, 0.2)'
             ],
             borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(0, 209, 178, 0.78)'
             ],
             pointBackgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -168,18 +146,90 @@ new Chart(chartScatter, {
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
                 'rgba(255, 159, 64, 1)'
-            ]
+            ],
+            borderWidth: 1
         }]
     },
     options: {
         scales: {
-            xAxes: [{
-                type: 'linear',
-                position: 'bottom'
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
             }]
         }
     }
 });
+
+/* Chart Scatter */
+// var chartScatter = document.getElementById("chartScatter");
+// new Chart(chartScatter, {
+//     type: 'line',
+//     data: {
+//         datasets: [{
+//             label: 'Scatter Dataset',
+//             data: [{
+//                 x: 5,
+//                 y: "jan"
+//             }, {
+//                 x: 6,
+//                 y: 8
+//             }, {
+//                 x: 6,
+//                 y: 6
+//             }, {
+//                 x: 7,
+//                 y: 7
+//             }, {
+//                 x: 7,
+//                 y: 9
+//             }, {
+//                 x: 9,
+//                 y: 5
+//             }],
+//             backgroundColor: [
+//                 'rgba(255, 99, 132, 0.2)',
+//                 'rgba(54, 162, 235, 0.2)',
+//                 'rgba(255, 206, 86, 0.2)',
+//                 'rgba(75, 192, 192, 0.2)',
+//                 'rgba(153, 102, 255, 0.2)',
+//                 'rgba(255, 159, 64, 0.2)'
+//             ],
+//             borderColor: [
+//                 'rgba(255,99,132,1)',
+//                 'rgba(54, 162, 235, 1)',
+//                 'rgba(255, 206, 86, 1)',
+//                 'rgba(75, 192, 192, 1)',
+//                 'rgba(153, 102, 255, 1)',
+//                 'rgba(255, 159, 64, 1)'
+//             ],
+//             pointBackgroundColor: [
+//                 'rgba(255, 99, 132, 0.2)',
+//                 'rgba(54, 162, 235, 0.2)',
+//                 'rgba(255, 206, 86, 0.2)',
+//                 'rgba(75, 192, 192, 0.2)',
+//                 'rgba(153, 102, 255, 0.2)',
+//                 'rgba(255, 159, 64, 0.2)'
+//             ],
+//             pointBorderColor: [
+//                 'rgba(255,99,132,1)',
+//                 'rgba(54, 162, 235, 1)',
+//                 'rgba(255, 206, 86, 1)',
+//                 'rgba(75, 192, 192, 1)',
+//                 'rgba(153, 102, 255, 1)',
+//                 'rgba(255, 159, 64, 1)'
+//             ]
+//         }]
+//     },
+//     options: {
+//         scales: {
+//             xAxes: [{
+//                 type: 'linear',
+//                 position: 'bottom'
+//             }]
+//         }
+//     }
+// });
 
 
 //-------------

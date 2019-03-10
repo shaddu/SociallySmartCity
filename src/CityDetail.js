@@ -135,27 +135,7 @@ class CityDetail extends React.Component {
           <div class="column is-6">
             <div class="panel">
               <p class="panel-heading">
-                Crime Distribution (last 6 Months)
-              </p>
-              <div class="panel-block">
-                <canvas id="chartDoughnut" width="400" height="400"></canvas>
-              </div>
-            </div>
-          </div>
-          <div class="column is-6">
-            <div class="panel">
-              <p class="panel-heading">
-                Chart - Bar Style (Chart.js)
-              </p>
-              <div class="panel-block">
-                <canvas id="chartBar" width="400" height="400"></canvas>
-              </div>
-            </div>
-          </div>
-          <div class="column is-6">
-            <div class="panel">
-              <p class="panel-heading">
-                 Air Qaulity Index
+               Air Quality Index  
               </p>
               <div class="panel-block">
                 <canvas id="chartLine" width="400" height="400"></canvas>
@@ -165,10 +145,30 @@ class CityDetail extends React.Component {
           <div class="column is-6">
             <div class="panel">
               <p class="panel-heading">
-                Chart - Scatter Style (Chart.js)
+                Power Disruption 
               </p>
               <div class="panel-block">
                 <canvas id="chartScatter" width="400" height="400"></canvas>
+              </div>
+            </div>
+          </div>
+          <div class="column is-6">
+            <div class="panel">
+              <p class="panel-heading">
+             Crime Distribution (last 6 Months)
+              </p>
+              <div class="panel-block">
+                <canvas id="chartDoughnut" width="400" height="400"></canvas>
+              </div>
+            </div>
+          </div>
+          <div class="column is-6">
+            <div class="panel">
+              <p class="panel-heading">
+                Transportation Distribution
+              </p>
+              <div class="panel-block">
+                <canvas id="chartBar" width="400" height="400"></canvas>
               </div>
             </div>
           </div>

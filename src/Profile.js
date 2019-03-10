@@ -10,19 +10,19 @@ class Profile extends React.Component {
               <div className="level-item has-text-centered">
                 <div>
                   <p className="heading">New Issues</p>
-                  <p className="title">3,456</p>
+                  <p className="title">456</p>
                 </div>
               </div>
               <div className="level-item has-text-centered">
                 <div>
                   <p className="heading">Your Score</p>
-                  <p className="title">123</p>
+                  <p className="title">13</p>
                 </div>
               </div>
               <div className="level-item has-text-centered">
                 <div>
                   <p className="heading">City Score</p>
-                  <p className="title">456</p>
+                  <p className="title">87</p>
                 </div>
               </div>
               <div className="level-item has-text-centered">
