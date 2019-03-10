@@ -174,6 +174,106 @@ class CityDetail extends React.Component {
           </div>
         </div>
         {/* Charts ends */}
+
+           {/* level 2 starts */}
+           {/* <div className="columns is-multiline">
+          <div className="column">
+            <div className="box notification is-primary">
+              <div className="heading">Hostpital Count</div>
+              <div className="title">5</div>
+              <div className="level">
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Average Rating</div>
+                    <div className="title is-5">4.5</div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <div className="box notification is-warning">
+              <div className="heading">Security Microphones</div>
+              <div className="title">860</div>
+              <div className="level">
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Working</div>
+                    <div className="title is-5">701</div>
+                  </div>
+                </div>
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Damaged </div>
+                    <div className="title is-5">159</div>
+                  </div>
+                </div>
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading"> Change %</div>
+                    <div className="title is-5">16% &uarr;</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <div className="box notification is-info">
+            <div className="heading">Traffic Sensor</div>
+              <div className="title">786</div>
+              <div className="level">
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Working</div>
+                    <div className="title is-5">731</div>
+                  </div>
+                </div>
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Damaged </div>
+                    <div className="title is-5">55</div>
+                  </div>
+                </div>
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading"> Change %</div>
+                    <div className="title is-5">3% &uarr;</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <div className="box notification is-danger">
+            <div className="heading">Weather Sensors</div>
+              <div className="title">65</div>
+              <div className="level">
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Working</div>
+                    <div className="title is-5">58</div>
+                  </div>
+                </div>
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading">Damaged </div>
+                    <div className="title is-5">7</div>
+                  </div>
+                </div>
+                <div className="level-item">
+                  <div className="">
+                    <div className="heading"> Change %</div>
+                    <div className="title is-5">1% &uarr;</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   */}
+        {/* level 2 ends */}
+
         </div>
       </div>
     )
