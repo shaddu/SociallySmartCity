@@ -92,5 +92,5 @@ export class CityMaps extends React.Component {
 
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyCQTSIH1YKhZ040YhzLTLV1Ms-FAYfOSQo'
+    apiKey: 'API_KEY'
 })(CityMaps);

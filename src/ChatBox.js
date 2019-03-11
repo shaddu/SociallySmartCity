@@ -12,7 +12,7 @@ componentDidMount(){
   document.getElementById('chatbox').style.display = "block";
   document.getElementById('chatboxbody').style.display = "block";
   window.WebChat.renderWebChat({
-        directLine: window.WebChat.createDirectLine({ token: '5wO-dE0krT8.E05wzXepX9Q-Y_Iwk-wkvNEvCmxLXlax9kHYFKWgC4w' }),
+        directLine: window.WebChat.createDirectLine({ token: 'token' }),
         userID: 'YOUR_USER_ID'
       }, document.getElementById('chatboxbody'));
 }
