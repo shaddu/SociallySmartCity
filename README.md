@@ -2,7 +2,7 @@
 
 App for colabration between citizen and City authorties
 
-Developed for Barco Geekthon
+Developed for Barco Geekathon
 ***
 
 ### To Install dependencies 
@@ -26,7 +26,12 @@ Developed for Barco Geekthon
 ***
 ### App flow
 
+User View
+
 ![user](./images/userpage.PNG)
+
+
+City View
 
 ![city](./images/city.PNG)
 
